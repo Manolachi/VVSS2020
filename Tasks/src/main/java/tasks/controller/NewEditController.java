@@ -13,10 +13,10 @@ import javafx.scene.control.TextField;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import org.apache.log4j.Logger;
-import tasks.model.Task;
-import tasks.services.DateService;
-import tasks.services.TaskIO;
-import tasks.services.TasksService;
+import tasks.domain.Task;
+import tasks.service.DateService;
+import tasks.repository.TaskRepository;
+import tasks.service.TasksService;
 
 import java.io.IOException;
 import java.time.LocalDate;
@@ -157,7 +157,7 @@ public class NewEditController {
             }
             currentTask = null;
         }
-        TaskIO.rewriteFile(tasksList);
+        TaskRepository.rewriteFile(tasksList);
         Controller.editNewStage.close();
     }
     @FXML

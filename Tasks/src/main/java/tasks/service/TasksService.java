@@ -1,10 +1,10 @@
-package tasks.services;
+package tasks.service;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import tasks.model.ArrayTaskList;
-import tasks.model.Task;
-import tasks.model.TasksOperations;
+import tasks.repository.ArrayTaskList;
+import tasks.domain.Task;
+import tasks.repository.TasksFilter;
 
 import java.util.Date;
 
@@ -45,7 +45,7 @@ public class TasksService {
     }
 
     public Iterable<Task> filterTasks(Date start, Date end){
-        TasksOperations tasksOps = new TasksOperations(getObservableList());
+        TasksFilter tasksOps = new TasksFilter(getObservableList());
         Iterable<Task> filtered = tasksOps.incoming(start,end);
         //Iterable<Task> filtered = tasks.incoming(start, end);
 

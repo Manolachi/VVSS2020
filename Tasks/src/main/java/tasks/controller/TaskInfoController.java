@@ -2,7 +2,7 @@ package tasks.controller;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
-import tasks.model.Task;
+import tasks.domain.Task;
 
 import org.apache.log4j.Logger;
 

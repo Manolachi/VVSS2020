@@ -1,4 +1,4 @@
-package tasks.view;
+package tasks.controller;
 
 import javafx.application.Application;
 import javafx.collections.FXCollections;
@@ -7,11 +7,10 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import org.apache.log4j.Logger;
-import tasks.controller.Controller;
-import tasks.controller.Notificator;
-import tasks.model.ArrayTaskList;
-import tasks.services.TaskIO;
-import tasks.services.TasksService;
+import tasks.domain.Notificator;
+import tasks.repository.ArrayTaskList;
+import tasks.repository.TaskRepository;
+import tasks.service.TasksService;
 
 import java.io.File;
 import java.io.IOException;
@@ -37,7 +36,7 @@ public class Main extends Application {
 
         log.info("saved data reading");
         if (savedTasksFile.length() != 0) {
-            TaskIO.readBinary(savedTasksList, savedTasksFile);
+            TaskRepository.readBinary(savedTasksList, savedTasksFile);
         }
         try {
             log.info("application start");

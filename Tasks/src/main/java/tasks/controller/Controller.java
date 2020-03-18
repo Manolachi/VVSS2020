@@ -13,18 +13,20 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import org.apache.log4j.Logger;
-import tasks.model.Task;
-import tasks.services.DateService;
-import tasks.services.TaskIO;
-import tasks.services.TasksService;
-import tasks.view.Main;
+import tasks.domain.Task;
+import tasks.service.DateService;
+import tasks.repository.TaskRepository;
+import tasks.service.TasksService;
 
 import java.io.IOException;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Date;
 
+/**
+ The Desciption of the class to explain what the method does
 
+ */
 public class Controller {
     private static final Logger log = Logger.getLogger(Controller.class.getName());
     public ObservableList<Task> tasksList;
@@ -109,7 +111,7 @@ public class Controller {
     public void deleteTask(){
         Task toDelete = (Task)tasks.getSelectionModel().getSelectedItem();
         tasksList.remove(toDelete);
-        TaskIO.rewriteFile(tasksList);
+        TaskRepository.rewriteFile(tasksList);
     }
     @FXML
     public void showDetailedInfo(){

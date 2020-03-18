@@ -1,14 +1,15 @@
-package tasks.model;
+package tasks.repository;
 
 import javafx.collections.ObservableList;
+import tasks.domain.Task;
 
 import java.util.*;
 
-public class TasksOperations {
+public class TasksFilter {
 
     public ArrayList<Task> tasks;
 
-    public TasksOperations(ObservableList<Task> tasksList){
+    public TasksFilter(ObservableList<Task> tasksList){
         tasks=new ArrayList<>();
         tasks.addAll(tasksList);
     }
