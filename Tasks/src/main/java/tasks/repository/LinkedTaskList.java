@@ -12,6 +12,13 @@ import java.util.NoSuchElementException;
 
 import static java.util.Objects.isNull;
 
+
+
+/**
+ The Description :
+    The implementation of TaskList interface as a linked list with all the needed methods
+
+ */
 public class LinkedTaskList  extends TaskList {
     private static final Logger log = Logger.getLogger(LinkedTaskList.class.getName());
     private class LinkedTaskListIterator implements Iterator<Task>{

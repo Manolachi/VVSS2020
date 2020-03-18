@@ -8,6 +8,13 @@ import tasks.repository.TasksFilter;
 
 import java.util.Date;
 
+
+/**
+ The Description :
+    Service class for tasks, implements methods related to couple of the functionalities needed in the business logic
+
+ */
+
 public class TasksService {
 
     private ArrayTaskList tasks;

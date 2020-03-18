@@ -8,6 +8,11 @@ import tasks.domain.Task;
 import java.util.*;
 
 
+/**
+ The Description :
+    Implementation of TaskList as an ArrayList
+
+ */
 public class ArrayTaskList extends TaskList{
 
     private Task[] tasks;

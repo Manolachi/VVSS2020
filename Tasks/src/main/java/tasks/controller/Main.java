@@ -16,6 +16,11 @@ import java.io.File;
 import java.io.IOException;
 
 
+/**
+ The Description :
+    The main class that imports data and then starts up the gui of the program
+
+ */
 public class Main extends Application {
     public static Stage primaryStage;
     private static final int defaultWidth = 820;

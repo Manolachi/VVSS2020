@@ -7,6 +7,13 @@ import org.controlsfx.control.Notifications;
 
 import java.util.Date;
 
+
+
+/**
+ The Description :
+    thread base class used for logging, notifications and error saving/printing
+
+ */
 public class Notificator extends Thread {
 
     private static final int millisecondsInSec = 1000;

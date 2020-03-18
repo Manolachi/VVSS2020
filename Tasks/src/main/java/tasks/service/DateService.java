@@ -8,6 +8,13 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
+
+/**
+ The Description :
+    A small class used for methods related to Date of the tasks from service
+
+ */
+
 public class DateService {
     public static final int SECONDS_IN_MINUTE = 60;
     public static final int MINUTES_IN_HOUR = 60;

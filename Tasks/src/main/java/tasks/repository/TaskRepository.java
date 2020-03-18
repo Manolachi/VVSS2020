@@ -11,6 +11,12 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ The Description :
+    Class that is used to save in memory and load from memory the data ( in binary or text form )
+    It also contains some service methods for some unknown reason
+
+ */
 public class TaskRepository {
     private static final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("[yyyy-MM-dd HH:mm:ss.SSS]");
     private static final String[] TIME_ENTITY = {" day"," hour", " minute"," second"};

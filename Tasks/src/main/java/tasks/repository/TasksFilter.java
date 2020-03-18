@@ -5,6 +5,13 @@ import tasks.domain.Task;
 
 import java.util.*;
 
+
+/**
+ The Description :
+    Class that implements methods used in the filtering of tasks
+
+ */
+
 public class TasksFilter {
 
     public ArrayList<Task> tasks;

@@ -23,6 +23,11 @@ import java.time.LocalDate;
 import java.util.Date;
 
 
+/**
+ The Description :
+    The controller of the edit window displayed during the Modifying functionality
+
+ */
 public class NewEditController {
 
     private static Button clickedButton;

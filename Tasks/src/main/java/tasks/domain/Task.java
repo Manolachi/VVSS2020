@@ -8,6 +8,12 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 
+/**
+ The Description :
+    Main class containing all the atributes and methods of the object Task
+    -implements constructors, getters setters, date&time formatters, and couple of overwritten methods
+
+ */
 public class Task implements Serializable, Cloneable {
     private String title;
     private Date time;

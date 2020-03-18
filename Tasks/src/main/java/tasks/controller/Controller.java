@@ -24,7 +24,8 @@ import java.util.ArrayList;
 import java.util.Date;
 
 /**
- The Desciption of the class to explain what the method does
+ The Description :
+    The main controller of the gui, also contains service logic and the list of objects
 
  */
 public class Controller {
