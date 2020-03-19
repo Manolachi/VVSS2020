@@ -1,0 +1,245 @@
+2020-03-18 22:47:26 INFO  Main:37 - saved data reading
+2020-03-18 22:47:26 INFO  Main:42 - application start
+2020-03-18 22:47:28 INFO  Controller:77 - Main controller initializing
+2020-03-19 20:11:42 INFO  Main:41 - saved data reading
+2020-03-19 20:11:42 INFO  Main:46 - application start
+2020-03-19 20:11:43 INFO  Controller:78 - Main controller initializing
+2020-03-19 20:11:48 INFO  NewEditController:96 - new/edit window initializing
+2020-03-19 20:12:28 INFO  TaskInfoController:31 - task info window initializing
+2020-03-19 20:12:36 INFO  NewEditController:96 - new/edit window initializing
+2020-03-19 22:39:18 INFO  Main:42 - saved data reading
+2020-03-19 22:39:18 INFO  Main:47 - application start
+2020-03-19 22:39:18 ERROR Main:62 - error reading main.fxml
+2020-03-19 22:43:40 INFO  Main:42 - saved data reading
+2020-03-19 22:43:40 INFO  Main:47 - application start
+2020-03-19 22:43:41 INFO  Controller:75 - Main controller initializing
+2020-03-19 22:43:47 ERROR Controller:105 - Error loading new-edit-task.fxml
+2020-03-19 22:43:48 ERROR Controller:105 - Error loading new-edit-task.fxml
+2020-03-19 22:43:54 ERROR Controller:105 - Error loading new-edit-task.fxml
+2020-03-19 22:43:55 ERROR Controller:105 - Error loading new-edit-task.fxml
+2020-03-19 22:43:57 ERROR Controller:105 - Error loading new-edit-task.fxml
+2020-03-19 22:47:31 INFO  Main:42 - saved data reading
+2020-03-19 22:47:31 INFO  Main:47 - application start
+2020-03-19 22:47:32 INFO  Controller:74 - Main controller initializing
+2020-03-19 22:47:34 INFO  NewEditController:95 - new/edit window initializing
+2020-03-19 22:48:10 INFO  TaskInfoController:31 - task info window initializing
+2020-03-19 22:48:10 ERROR Controller:129 - error loading task-info.fxml
+2020-03-19 22:48:54 INFO  TaskInfoController:31 - task info window initializing
+2020-03-19 22:48:54 ERROR Controller:129 - error loading task-info.fxml
+2020-03-19 22:49:01 INFO  TaskInfoController:31 - task info window initializing
+2020-03-19 22:49:07 INFO  TaskInfoController:31 - task info window initializing
+2020-03-20 11:01:23 INFO  Main:42 - saved data reading
+2020-03-20 11:01:23 INFO  Main:47 - application start
+2020-03-20 11:01:24 INFO  Controller:74 - Main controller initializing
+2020-03-20 11:01:29 INFO  TaskInfoController:31 - task info window initializing
+2020-03-20 11:01:29 ERROR Controller:130 - error loading task-info.fxml
+2020-03-20 11:02:20 INFO  TaskInfoController:31 - task info window initializing
+2020-03-20 11:03:20 ERROR Controller:130 - error loading task-info.fxml
+2020-03-20 11:05:26 INFO  TaskInfoController:31 - task info window initializing
+2020-03-20 11:05:33 ERROR Controller:130 - error loading task-info.fxml
+2020-03-20 11:06:03 INFO  Main:42 - saved data reading
+2020-03-20 11:06:03 INFO  Main:47 - application start
+2020-03-20 11:06:03 INFO  Controller:74 - Main controller initializing
+2020-03-20 11:06:13 INFO  TaskInfoController:28 - task info window initializing
+2020-03-20 11:06:22 ERROR Controller:130 - error loading task-info.fxml
+2020-03-20 11:09:15 INFO  Main:42 - saved data reading
+2020-03-20 11:09:15 INFO  Main:47 - application start
+2020-03-20 11:09:15 INFO  Controller:74 - Main controller initializing
+2020-03-20 11:09:20 INFO  TaskInfoController:30 - task info window initializing
+2020-03-20 11:09:33 INFO  TaskInfoController:30 - task info window initializing
+2020-03-20 11:10:07 INFO  Main:42 - saved data reading
+2020-03-20 11:10:07 INFO  Main:47 - application start
+2020-03-20 11:10:08 INFO  Controller:74 - Main controller initializing
+2020-03-20 11:12:20 INFO  TaskInfoController:30 - task info window initializing
+2020-03-20 11:12:23 INFO  TaskInfoController:30 - task info window initializing
+2020-03-20 11:12:24 INFO  NewEditController:95 - new/edit window initializing
+2020-03-20 11:12:29 INFO  TaskInfoController:30 - task info window initializing
+2020-03-20 11:12:36 INFO  NewEditController:95 - new/edit window initializing
+2020-03-20 11:12:43 INFO  TaskInfoController:30 - task info window initializing
+2020-03-20 11:12:46 INFO  NewEditController:95 - new/edit window initializing
+2020-03-20 11:12:51 INFO  TaskInfoController:30 - task info window initializing
+2020-03-20 11:12:55 INFO  NewEditController:95 - new/edit window initializing
+2020-03-20 11:13:37 INFO  NewEditController:95 - new/edit window initializing
+2020-03-20 11:13:45 INFO  NewEditController:95 - new/edit window initializing
+2020-03-20 11:16:17 INFO  TaskInfoController:30 - task info window initializing
+2020-03-20 11:16:19 INFO  NewEditController:95 - new/edit window initializing
+2020-03-20 11:16:21 INFO  NewEditController:95 - new/edit window initializing
+2020-03-20 11:16:24 INFO  NewEditController:95 - new/edit window initializing
+2020-03-20 11:16:43 INFO  NewEditController:95 - new/edit window initializing
+2020-03-20 11:16:47 INFO  NewEditController:95 - new/edit window initializing
+2020-03-20 11:16:50 INFO  NewEditController:95 - new/edit window initializing
+2020-03-20 11:22:37 INFO  NewEditController:95 - new/edit window initializing
+2020-03-20 11:22:50 INFO  NewEditController:95 - new/edit window initializing
+2020-03-20 11:28:48 INFO  Main:42 - saved data reading
+2020-03-20 11:28:48 INFO  Main:47 - application start
+2020-03-20 11:28:49 INFO  Controller:74 - Main controller initializing
+2020-03-20 11:29:10 INFO  NewEditController:95 - new/edit window initializing
+2020-03-20 11:33:53 INFO  Main:42 - saved data reading
+2020-03-20 11:33:53 INFO  Main:47 - application start
+2020-03-20 11:33:53 INFO  Controller:74 - Main controller initializing
+2020-03-20 11:33:58 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 11:34:48 INFO  Main:42 - saved data reading
+2020-03-20 11:34:48 INFO  Main:47 - application start
+2020-03-20 11:34:49 INFO  Controller:74 - Main controller initializing
+2020-03-20 11:34:51 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 11:36:59 INFO  Main:42 - saved data reading
+2020-03-20 11:36:59 INFO  Main:47 - application start
+2020-03-20 11:37:00 INFO  Controller:74 - Main controller initializing
+2020-03-20 11:37:05 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 11:37:36 INFO  Main:42 - saved data reading
+2020-03-20 11:37:36 INFO  Main:47 - application start
+2020-03-20 11:37:37 INFO  Controller:74 - Main controller initializing
+2020-03-20 11:37:41 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 11:38:15 INFO  Main:42 - saved data reading
+2020-03-20 11:38:15 INFO  Main:47 - application start
+2020-03-20 11:38:16 INFO  Controller:74 - Main controller initializing
+2020-03-20 11:38:21 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 11:39:10 INFO  Main:42 - saved data reading
+2020-03-20 11:39:10 INFO  Main:47 - application start
+2020-03-20 11:39:11 INFO  Controller:74 - Main controller initializing
+2020-03-20 11:39:16 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 11:41:13 INFO  NewEditController:216 - Task{title='', time=Fri Mar 20 10:00:00 EET 2020, start=Fri Mar 20 10:00:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=36000, active=false}
+2020-03-20 11:41:21 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 11:48:26 INFO  Main:42 - saved data reading
+2020-03-20 11:48:26 INFO  Main:47 - application start
+2020-03-20 11:48:27 INFO  Controller:74 - Main controller initializing
+2020-03-20 11:49:21 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 11:49:28 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 11:49:33 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 11:49:36 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 11:49:54 INFO  NewEditController:215 - Task{title='', time=Fri Mar 20 08:00:00 EET 2020, start=Fri Mar 20 08:00:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=18060, active=true}
+2020-03-20 11:50:07 INFO  TaskInfoController:30 - task info window initializing
+2020-03-20 11:50:12 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 11:50:17 INFO  NewEditController:215 - Task{title='', time=Fri Mar 20 10:00:00 EET 2020, start=Fri Mar 20 10:00:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=36000, active=true}
+2020-03-20 11:50:20 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 11:50:23 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 11:50:51 INFO  NewEditController:215 - Task{title='asd', time=Fri Feb 28 12:12:00 EET 2020, start=Fri Feb 28 12:12:00 EET 2020, end=Fri Feb 28 12:12:00 EET 2020, interval=0, active=true}
+2020-03-20 11:50:57 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 11:53:58 INFO  Main:42 - saved data reading
+2020-03-20 11:53:58 INFO  Main:47 - application start
+2020-03-20 11:53:59 INFO  Controller:74 - Main controller initializing
+2020-03-20 11:54:11 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 11:55:13 INFO  NewEditController:215 - Task{title='', time=Fri Mar 20 01:02:00 EET 2020, start=Fri Mar 20 01:02:00 EET 2020, end=Fri Mar 20 01:02:00 EET 2020, interval=0, active=false}
+2020-03-20 11:55:17 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 11:58:59 INFO  Main:42 - saved data reading
+2020-03-20 11:58:59 INFO  Main:47 - application start
+2020-03-20 11:59:00 INFO  Controller:74 - Main controller initializing
+2020-03-20 11:59:04 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:01:06 INFO  NewEditController:215 - Task{title='', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=true}
+2020-03-20 12:04:00 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:04:34 INFO  Main:42 - saved data reading
+2020-03-20 12:04:34 INFO  Main:47 - application start
+2020-03-20 12:04:35 INFO  Controller:74 - Main controller initializing
+2020-03-20 12:19:07 INFO  Main:42 - saved data reading
+2020-03-20 12:19:07 INFO  Main:47 - application start
+2020-03-20 12:19:08 INFO  Controller:75 - Main controller initializing
+2020-03-20 12:26:29 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:26:32 INFO  NewEditController:204 - Task{title='', time=Fri Mar 20 01:02:00 EET 2020, start=Fri Mar 20 01:02:00 EET 2020, end=Fri Mar 20 01:02:00 EET 2020, interval=0, active=true}
+2020-03-20 12:26:52 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:26:58 INFO  NewEditController:204 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=true}
+2020-03-20 12:27:12 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:27:49 INFO  NewEditController:204 - Task{title='A', time=Fri Mar 20 01:02:00 EET 2020, start=Fri Mar 20 01:02:00 EET 2020, end=Fri Mar 20 01:02:00 EET 2020, interval=0, active=true}
+2020-03-20 12:32:02 INFO  Main:42 - saved data reading
+2020-03-20 12:32:02 INFO  Main:47 - application start
+2020-03-20 12:32:03 INFO  Controller:75 - Main controller initializing
+2020-03-20 12:32:06 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:34:01 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:34:03 INFO  NewEditController:204 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=false}
+2020-03-20 12:34:10 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:34:13 INFO  NewEditController:204 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=false}
+2020-03-20 12:34:15 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:34:18 INFO  NewEditController:204 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=false}
+2020-03-20 12:34:20 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:34:22 INFO  NewEditController:204 - Task{title='A', time=Fri Mar 20 01:02:00 EET 2020, start=Fri Mar 20 01:02:00 EET 2020, end=Fri Mar 20 01:02:00 EET 2020, interval=0, active=true}
+2020-03-20 12:34:25 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:34:27 INFO  NewEditController:204 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=false}
+2020-03-20 12:34:28 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:34:30 INFO  NewEditController:204 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=false}
+2020-03-20 12:34:37 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:34:39 INFO  NewEditController:204 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=false}
+2020-03-20 12:34:41 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:34:42 INFO  NewEditController:204 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=true}
+2020-03-20 12:34:44 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:34:46 INFO  NewEditController:204 - Task{title='A', time=Fri Mar 20 01:02:00 EET 2020, start=Fri Mar 20 01:02:00 EET 2020, end=Fri Mar 20 01:02:00 EET 2020, interval=0, active=false}
+2020-03-20 12:34:48 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:35:32 INFO  NewEditController:204 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=true}
+2020-03-20 12:35:35 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:35:40 INFO  NewEditController:204 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=false}
+2020-03-20 12:35:43 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:35:46 INFO  NewEditController:204 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=true}
+2020-03-20 12:35:50 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:35:54 INFO  NewEditController:204 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=false}
+2020-03-20 12:35:56 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:35:59 INFO  NewEditController:204 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=true}
+2020-03-20 12:36:04 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:36:09 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:36:12 INFO  NewEditController:204 - Task{title='A', time=Fri Mar 20 01:02:00 EET 2020, start=Fri Mar 20 01:02:00 EET 2020, end=Fri Mar 20 01:02:00 EET 2020, interval=0, active=true}
+2020-03-20 12:36:14 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:36:17 INFO  NewEditController:204 - Task{title='A', time=Fri Mar 20 01:02:00 EET 2020, start=Fri Mar 20 01:02:00 EET 2020, end=Fri Mar 20 01:02:00 EET 2020, interval=0, active=true}
+2020-03-20 12:37:00 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:37:02 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:37:06 INFO  NewEditController:204 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=false}
+2020-03-20 12:37:16 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:37:19 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:37:23 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:37:24 INFO  NewEditController:204 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=false}
+2020-03-20 12:37:25 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:37:28 INFO  NewEditController:204 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=false}
+2020-03-20 12:37:29 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:37:33 INFO  NewEditController:204 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 08:20:00 EET 2020, interval=0, active=false}
+2020-03-20 12:37:35 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:37:43 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:37:57 INFO  NewEditController:204 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=false}
+2020-03-20 12:38:10 INFO  Main:42 - saved data reading
+2020-03-20 12:38:10 INFO  Main:47 - application start
+2020-03-20 12:38:12 INFO  Controller:75 - Main controller initializing
+2020-03-20 12:38:21 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:38:26 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:38:29 INFO  NewEditController:204 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=true}
+2020-03-20 12:38:36 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:38:39 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:38:42 INFO  NewEditController:204 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=false}
+2020-03-20 12:38:52 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:39:29 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:40:14 INFO  NewEditController:204 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=true}
+2020-03-20 12:40:32 INFO  Main:42 - saved data reading
+2020-03-20 12:40:32 INFO  Main:47 - application start
+2020-03-20 12:40:33 INFO  Controller:75 - Main controller initializing
+2020-03-20 12:41:59 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:42:26 INFO  NewEditController:202 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=true}
+2020-03-20 12:44:17 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:44:28 INFO  NewEditController:202 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=false}
+2020-03-20 12:44:31 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:44:35 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:44:40 INFO  NewEditController:202 - Task{title='A R', time=Fri Mar 20 08:20:00 EET 2020, start=Fri Mar 20 08:20:00 EET 2020, end=Fri Mar 20 10:00:00 EET 2020, interval=1800, active=true}
+2020-03-20 12:45:14 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:45:18 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:55:20 INFO  Main:42 - saved data reading
+2020-03-20 12:55:20 INFO  Main:47 - application start
+2020-03-20 12:55:21 INFO  Controller:75 - Main controller initializing
+2020-03-20 12:55:33 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:55:37 INFO  NewEditController:202 - Task{title='qwer', time=Fri Mar 20 08:00:00 EET 2020, start=Fri Mar 20 08:00:00 EET 2020, end=Fri Mar 20 08:00:00 EET 2020, interval=0, active=false}
+2020-03-20 12:56:03 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:56:05 INFO  NewEditController:202 - Task{title='qwer', time=Fri Mar 20 08:00:00 EET 2020, start=Fri Mar 20 08:00:00 EET 2020, end=Fri Mar 20 08:00:00 EET 2020, interval=0, active=true}
+2020-03-20 12:56:12 INFO  NewEditController:92 - new/edit window initializing
+2020-03-20 12:56:14 INFO  NewEditController:202 - Task{title='A', time=Fri Mar 20 01:02:00 EET 2020, start=Fri Mar 20 01:02:00 EET 2020, end=Fri Mar 20 01:02:00 EET 2020, interval=0, active=false}
+2020-03-20 12:56:28 INFO  TaskInfoController:30 - task info window initializing
+2020-03-20 13:24:16 INFO  Main:39 - saved data reading
+2020-03-20 13:24:16 INFO  Main:44 - application start
+2020-03-20 13:24:17 INFO  Controller:75 - Main controller initializing
+2020-03-20 13:24:21 INFO  NewEditController:85 - new/edit window initializing
+2020-03-20 13:24:23 INFO  NewEditController:85 - new/edit window initializing
+2020-03-20 13:24:24 INFO  NewEditController:191 - Task{title='', time=Fri Mar 20 08:00:00 EET 2020, start=Fri Mar 20 08:00:00 EET 2020, end=Fri Mar 20 08:00:00 EET 2020, interval=0, active=false}
+2020-03-20 13:24:26 INFO  TaskInfoController:28 - task info window initializing
+2020-03-20 13:39:23 INFO  Main:39 - saved data reading
+2020-03-20 13:40:35 INFO  Main:39 - saved data reading
+2020-03-20 13:40:35 INFO  Main:44 - application start
+2020-03-20 13:40:36 INFO  Controller:75 - Main controller initializing
+2020-03-20 13:41:00 INFO  Main:39 - saved data reading
+2020-03-20 13:41:00 INFO  Main:44 - application start
+2020-03-20 13:41:01 INFO  Controller:75 - Main controller initializing
+2020-03-20 13:45:12 INFO  Main:39 - saved data reading
+2020-03-20 13:45:12 INFO  Main:44 - application start
+2020-03-20 13:45:12 INFO  Controller:75 - Main controller initializing
+2020-03-20 13:45:15 INFO  NewEditController:87 - new/edit window initializing
+2020-03-20 13:45:16 INFO  NewEditController:193 - Task{title='', time=Fri Mar 20 08:00:00 EET 2020, start=Fri Mar 20 08:00:00 EET 2020, end=Fri Mar 20 08:00:00 EET 2020, interval=0, active=false}

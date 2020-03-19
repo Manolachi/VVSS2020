@@ -1,10 +1,9 @@
 package tasks.repository;
 
-
-
 import org.apache.log4j.Logger;
 import tasks.domain.Task;
 
+import java.io.Serializable;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -12,45 +11,12 @@ import java.util.NoSuchElementException;
 
 import static java.util.Objects.isNull;
 
-
-
 /**
  The Description :
     The implementation of TaskList interface as a linked list with all the needed methods
-
  */
-public class LinkedTaskList  extends TaskList {
+public class LinkedTaskList implements TaskList {
     private static final Logger log = Logger.getLogger(LinkedTaskList.class.getName());
-    private class LinkedTaskListIterator implements Iterator<Task>{
-        private int cursor;
-        private int lastCalled = -1;
-
-
-        @Override
-        public boolean hasNext() {
-            return cursor < numberOfTasks;
-        }
-
-        @Override
-        public Task next() {
-            if (!hasNext()){
-                log.error("next iterator element doesn't exist");
-                throw new NoSuchElementException("No next element");
-            }
-            lastCalled = cursor;
-            return getTask(cursor++);
-        }
-
-        @Override
-        public void remove() {
-            if (lastCalled == -1){
-                throw new IllegalStateException();
-            }
-            LinkedTaskList.this.remove(getTask(lastCalled));
-            cursor = lastCalled;
-            lastCalled = -1;
-        }
-    }
     private int numberOfTasks;
     private Node last;
 
@@ -59,9 +25,10 @@ public class LinkedTaskList  extends TaskList {
         numberOfTasks++;
         Node lastNode = last;
         Node newNode = new Node(task, lastNode);
-        if (last!= null) last.setNext(newNode);
+        if (last != null) last.setNext(newNode);
         last = newNode;
     }
+
     @Override
     public boolean remove(Task task) {
         if (isNull(task)) {
@@ -89,6 +56,7 @@ public class LinkedTaskList  extends TaskList {
     public int size() {
         return numberOfTasks;
     }
+
     @Override
     public Task getTask(int index) {
         if (index < 0 || index > size()-1) {
@@ -106,50 +74,15 @@ public class LinkedTaskList  extends TaskList {
 
     @Override
     public List<Task> getAll() {
-        LinkedList<Task> tks=new LinkedList<>();
+        LinkedList<Task> tasks = new LinkedList<>();
         for (Task t: this)
-            tks.add(t);
-        return tks;
+            tasks.add(t);
+        return tasks;
     }
 
     @Override
     public Iterator<Task> iterator() {
         return new LinkedTaskListIterator();
-    }
-
-    private static class Node {
-        private Task task;
-        private Node last;
-        private Node next;
-
-        private Node getNext() {
-            return next;
-        }
-
-        private void setNext(Node next) {
-            this.next = next;
-        }
-
-        private Node(Task task, Node last) {
-            this.task = task;
-            this.last = last;
-        }
-
-        private Task getTask() {
-            return task;
-        }
-
-        private Node getLast() {
-            return last;
-        }
-
-        private void setTask(Task task) {
-            this.task = task;
-        }
-
-        private void setLast(Node last) {
-            this.last = last;
-        }
     }
 
     @Override
@@ -184,12 +117,65 @@ public class LinkedTaskList  extends TaskList {
                 ", last=" + last +
                 '}';
     }
-    @Override
-    protected LinkedTaskList clone() throws CloneNotSupportedException {
-        LinkedTaskList tasks = new LinkedTaskList();
-        for (Task t : this){
-            tasks.add(t);
+
+    private static class Node implements Serializable {
+        private final Task task;
+        private Node last;
+        private Node next;
+
+        private Node getNext() {
+            return next;
         }
-        return tasks;
+
+        private void setNext(Node next) {
+            this.next = next;
+        }
+
+        private Node(Task task, Node last) {
+            this.task = task;
+            this.last = last;
+        }
+
+        private Task getTask() {
+            return task;
+        }
+
+        private Node getLast() {
+            return last;
+        }
+
+        private void setLast(Node last) {
+            this.last = last;
+        }
+    }
+
+    private class LinkedTaskListIterator implements Iterator<Task>{
+        private int cursor;
+        private int lastCalled = -1;
+
+        @Override
+        public boolean hasNext() {
+            return cursor < numberOfTasks;
+        }
+
+        @Override
+        public Task next() {
+            if (!hasNext()){
+                log.error("next iterator element doesn't exist");
+                throw new NoSuchElementException("No next element");
+            }
+            lastCalled = cursor;
+            return getTask(cursor++);
+        }
+
+        @Override
+        public void remove() {
+            if (lastCalled == -1){
+                throw new IllegalStateException();
+            }
+            LinkedTaskList.this.remove(getTask(lastCalled));
+            cursor = lastCalled;
+            lastCalled = -1;
+        }
     }
 }

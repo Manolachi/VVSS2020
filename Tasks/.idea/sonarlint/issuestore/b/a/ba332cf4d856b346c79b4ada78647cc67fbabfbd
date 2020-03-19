@@ -1,0 +1,52 @@
+
+n	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼ÌÔ;
+>
+java:S1659\"#Declare "hours" on a separate line.(ÚåÏ¾üÿÿÿÿ
+G
+java:S1135
+"2Complete the task associated to this TODO comment.(ØüŞ'
+@
+java:S1659\"%Declare "seconds" on a separate line.(ÚåÏ¾üÿÿÿÿ
+]
+java:S3027’"FPut single-quotes around '[' to use the faster "indexOf(char)" method.(†Ùí”
+g
+java:S3027¢"KPut single-quotes around '\"' to use the faster "lastIndexOf(char)" method.(Ê·«Ãûÿÿÿÿ
+R
+java:S1144 "5Remove this unused private "getTitleFromText" method.(šœšU8Äø .
+R
+java:S1144‡"4Remove this unused private "getDateFromText" method.(£†Ê™8Äø .
+5
+java:S16595"Declare "j" on a separate line.(±é…
+@
+java:S1659\"%Declare "minutes" on a separate line.(ÚåÏ¾üÿÿÿÿ
+]
+java:S3027‘"FPut single-quotes around ']' to use the faster "indexOf(char)" method.(¶…¦
+V	java:S125"<This block of commented-out lines of code should be removed.(‡İíÃşÿÿÿÿ
+]	java:S125E"<This block of commented-out lines of code should be removed.(­÷Á…üÿÿÿÿ8Äø .
+C
+java:S3416"(Update this logger to use "Utils.class".(§Üïßúÿÿÿÿ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(İ–ë“ûÿÿÿÿ
+V	java:S125o"<This block of commented-out lines of code should be removed.(À›¸Öûÿÿÿÿ
+:
+java:S1659i"Declare "j" on a separate line.(Ù é®şÿÿÿÿ
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ôâ»Ô
+P
+java:S1118":Add a private constructor to hide the implicit public one.(¼Øûì
+m
+java:S3776["RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(œÂÁñøÿÿÿÿ
+Z
+java:S1144["8Remove this unused private "getIntervalFromText" method.(œÂÁñøÿÿÿÿ8Äø .
+]
+java:S3027"FPut single-quotes around ']' to use the faster "indexOf(char)" method.(ÏÙã™
+X	java:S125I"<This block of commented-out lines of code should be removed.(¢¶8Äø .
+=
+java:S1659Š"!Declare "end" on a separate line.(ÍôÁÑıÿÿÿÿ
+e
+java:S3027a"JPut single-quotes around ']' to use the faster "lastIndexOf(char)" method.(®Ñ­Õúÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(¬¸‡ßùÿÿÿÿ
+H
+java:S2885"-Make "simpleDateFormat" an instance variable.(ËÒÌıøÿÿÿÿ
+e
+java:S3027`"JPut single-quotes around '[' to use the faster "lastIndexOf(char)" method.(Šöèéıÿÿÿÿ
+b
+java:S3027“"FPut single-quotes around ']' to use the faster "indexOf(char)" method.(¼ÅÈ¶ÿÿÿÿÿ

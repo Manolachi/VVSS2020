@@ -1,27 +1,23 @@
 package tasks.repository;
 
-
-
 import org.apache.log4j.Logger;
 import tasks.domain.Task;
-
 import java.util.*;
-
 
 /**
  The Description :
     Implementation of TaskList as an ArrayList
-
  */
-public class ArrayTaskList extends TaskList{
-
+public class ArrayTaskList implements TaskList{
     private Task[] tasks;
     private int numberOfTasks;
     private int currentCapacity;
     private static final Logger log = Logger.getLogger(ArrayTaskList.class.getName());
+
     private class ArrayTaskListIterator implements Iterator<Task> {
         private int cursor;
         private int lastCalled = -1;
+
         @Override
         public boolean hasNext() {
             return cursor < numberOfTasks;
@@ -52,6 +48,12 @@ public class ArrayTaskList extends TaskList{
         this.tasks = new Task[currentCapacity];
     }
 
+    public ArrayTaskList(ArrayTaskList other){
+        this.numberOfTasks = other.numberOfTasks;
+        this.currentCapacity = other.currentCapacity;
+        this.tasks = other.tasks;
+    }
+
     @Override
     public Iterator<Task> iterator() {
         return new ArrayTaskListIterator();
@@ -59,7 +61,7 @@ public class ArrayTaskList extends TaskList{
 
     @Override
     public void add(Task task){
-        if (task.equals(null)) throw new NullPointerException("Task shouldn't be null");
+        if (task == null) throw new NullPointerException("Task shouldn't be null");
         if (numberOfTasks == currentCapacity-1){
             currentCapacity = currentCapacity * 2;
             Task[] withAddedTask = new Task[currentCapacity];
@@ -69,6 +71,7 @@ public class ArrayTaskList extends TaskList{
         this.tasks[numberOfTasks] = task;
         this.numberOfTasks++;
     }
+
     @Override
     public boolean remove(Task task){
         int indexOfTaskToDelete = -1;
@@ -86,27 +89,25 @@ public class ArrayTaskList extends TaskList{
         }
         return false;
     }
+
     @Override
     public int size(){
         return this.numberOfTasks;
     }
+
     @Override
     public Task getTask(int index){
         if (index < 0 || index > size()-1) {
             log.error("not existing index");
             throw new IndexOutOfBoundsException("Index not found");
         }
-
-
         return tasks[index];
     }
 
     @Override
     public List<Task> getAll() {
-        ArrayList<Task> tks=new ArrayList<>();
-        for (int i=0; i<this.numberOfTasks;i++)
-            tks.add(this.tasks[i]);
-        return tks;
+        return new ArrayList<>(Arrays.asList(this.tasks)
+                .subList(0, this.numberOfTasks));
     }
 
     @Override
@@ -143,15 +144,4 @@ public class ArrayTaskList extends TaskList{
                 ", currentCapacity=" + currentCapacity +
                 '}';
     }
-    @Override
-    protected ArrayTaskList clone() throws CloneNotSupportedException {
-        ArrayTaskList tasks = new ArrayTaskList();
-        for (int i = 0; i < this.tasks.length; i++){
-            tasks.add(this.getTask(i));
-        }
-        return tasks;
-
-    }
-
-
 }
