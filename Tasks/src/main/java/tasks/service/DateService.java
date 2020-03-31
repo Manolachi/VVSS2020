@@ -39,7 +39,7 @@ public class DateService {
         try {
             int hour = Integer.parseInt(units[0]);
             int minute = Integer.parseInt(units[1]);
-            if (hour > HOURS_IN_A_DAY || minute > MINUTES_IN_HOUR)
+            if (hour >= HOURS_IN_A_DAY || minute >= MINUTES_IN_HOUR || hour < 0 || minute < 0)
                 throw new IllegalArgumentException("Time unit exceeds bounds");
 
             Calendar calendar = java.util.Calendar.getInstance();
