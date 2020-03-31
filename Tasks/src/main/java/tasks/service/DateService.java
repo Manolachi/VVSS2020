@@ -44,12 +44,10 @@ public class DateService {
 
             LocalDate localDate = startDateWithNoTime.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
             int year  = localDate.getYear();
-
+            System.out.println(year);
             if(year<1970 || year>2100){
                 throw new IllegalArgumentException("Year unit exceeds bounds");
             }
-
-
 
 
             Calendar calendar = java.util.Calendar.getInstance();
