@@ -30,20 +30,24 @@ public class DateService {
         return Date.from(instant);
     }
 
-    public Date getDateMergedWithTime(String time, Date noTimeDate) {//to retrieve Date object from both DatePicker and time field
+    public Date getDateMergedWithTime(String time, Date startDateWithNoTime) {//to retrieve Date object from both DatePicker and time field
         String[] units = time.split(":");
         if(units.length != 2){
             throw new IllegalArgumentException("Invalid interval format hh:MM");
         }
+
         try {
             int hour = Integer.parseInt(units[0]);
             int minute = Integer.parseInt(units[1]);
             if (hour > HOURS_IN_A_DAY || minute > MINUTES_IN_HOUR)
                 throw new IllegalArgumentException("Time unit exceeds bounds");
+
             Calendar calendar = java.util.Calendar.getInstance();
-            calendar.setTime(noTimeDate);
+
+            calendar.setTime(startDateWithNoTime);
             calendar.set(Calendar.HOUR_OF_DAY, hour);
             calendar.set(Calendar.MINUTE, minute);
+
             return calendar.getTime();
         }catch (NumberFormatException e){
             throw new IllegalArgumentException("Invalid time input");
