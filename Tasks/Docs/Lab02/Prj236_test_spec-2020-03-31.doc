@@ -31,7 +31,7 @@
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
 <tr><td colspan="3"></td></tr><tr><td > name of the test method:</td><td  colspan = "2" ></td></tr>
 <tr><td > name of the autotest class:</td><td  colspan = "2" ></td></tr>
-<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">ppir2382_F01:  Lab02<br /></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Keywords:</span><td colspan="2">&nbsp;None<br></td></tr>
 </table>
 </div>
@@ -46,7 +46,7 @@
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
 <tr><td colspan="3"></td></tr><tr><td > name of the test method:</td><td  colspan = "2" ></td></tr>
 <tr><td > name of the autotest class:</td><td  colspan = "2" ></td></tr>
-<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">ppir2382_F01:  Lab02<br /></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Keywords:</span><td colspan="2">&nbsp;None<br></td></tr>
 </table>
 </div>
@@ -61,7 +61,7 @@
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
 <tr><td colspan="3"></td></tr><tr><td > name of the test method:</td><td  colspan = "2" ></td></tr>
 <tr><td > name of the autotest class:</td><td  colspan = "2" ></td></tr>
-<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">ppir2382_F01:  Lab02<br /></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Keywords:</span><td colspan="2">&nbsp;None<br></td></tr>
 </table>
 </div>
@@ -76,7 +76,7 @@
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
 <tr><td colspan="3"></td></tr><tr><td > name of the test method:</td><td  colspan = "2" ></td></tr>
 <tr><td > name of the autotest class:</td><td  colspan = "2" ></td></tr>
-<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">ppir2382_F01:  Lab02<br /></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Keywords:</span><td colspan="2">&nbsp;None<br></td></tr>
 </table>
 </div>
@@ -91,7 +91,7 @@
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
 <tr><td colspan="3"></td></tr><tr><td > name of the test method:</td><td  colspan = "2" ></td></tr>
 <tr><td > name of the autotest class:</td><td  colspan = "2" ></td></tr>
-<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">ppir2382_F01:  Lab02<br /></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Keywords:</span><td colspan="2">&nbsp;None<br></td></tr>
 </table>
 </div>
@@ -106,14 +106,14 @@
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
 <tr><td colspan="3"></td></tr><tr><td > name of the test method:</td><td  colspan = "2" ></td></tr>
 <tr><td > name of the autotest class:</td><td  colspan = "2" ></td></tr>
-<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">ppir2382_F01:  Lab02<br /></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Keywords:</span><td colspan="2">&nbsp;None<br></td></tr>
 </table>
 </div>
 <a name="toc_tc42045"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="3">Test Case Prj236-92: getDateMergedWithTime_invalid_date_BVA</th></tr>
 <tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="2">pativioleta</td></tr>
 <tr><td colspan="3"><span class="label">Summary:</span><br /><p>
-	Se verifica limitele clasei de echivalenta non-valide corespunzatoare domeniului de valori pentru data&nbsp;&nbsp; ( folosind valoarea 13/32/2101 ) .</p>
+	Se verifica limitele clasei de echivalenta non-valide corespunzatoare domeniului de valori pentru data&nbsp;&nbsp; ( folosind valoarea 11/10/2101 ) .</p>
 </td></tr><tr><td colspan="3"><span class="label">Preconditions:</span><br /><p>
 	Formatul datei este &quot;mm/dd/yyyy&quot; unde mm reprezinta luna, dd - ziua, yyyy-anul.<br />
 	yyyy apartine intervalului [1970,2100].<br />
@@ -128,14 +128,14 @@
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
 <tr><td colspan="3"></td></tr><tr><td > name of the test method:</td><td  colspan = "2" ></td></tr>
 <tr><td > name of the autotest class:</td><td  colspan = "2" ></td></tr>
-<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">ppir2382_F01:  Lab02<br /></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Keywords:</span><td colspan="2">&nbsp;None<br></td></tr>
 </table>
 </div>
 <a name="toc_tc42047"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="3">Test Case Prj236-93: getDateMergedWithTime_valid_date_BVA</th></tr>
 <tr><td width="20%" valign="top"><span class="label">Author:</span></td><td colspan="2">pativioleta</td></tr>
 <tr><td colspan="3"><span class="label">Summary:</span><br /><p>
-	Se verifica limitele clasei de echivalenta valide corespunzatoare domeniului de valori pentru data&nbsp;&nbsp; ( folosind valoarea 12/31/2100 ) .</p>
+	Se verifica limitele clasei de echivalenta valide corespunzatoare domeniului de valori pentru data&nbsp;&nbsp; ( folosind valoarea 11/18/2100 ) .</p>
 </td></tr><tr><td colspan="3"><span class="label">Preconditions:</span><br /><p>
 	Formatul datei este &quot;mm/dd/yyyy&quot; unde mm reprezinta luna, dd - ziua, yyyy-anul.<br />
 	yyyy apartine intervalului [1970,2100].<br />
@@ -150,7 +150,7 @@
 <tr><td width="20%" valign="top"><span class="label">Importance:</span></td><td colspan="2">Medium</td></tr>
 <tr><td colspan="3"></td></tr><tr><td > name of the test method:</td><td  colspan = "2" ></td></tr>
 <tr><td > name of the autotest class:</td><td  colspan = "2" ></td></tr>
-<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">&nbsp;None<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requirements</span><td colspan="2">ppir2382_F01:  Lab02<br /></td></tr>
 <tr><td width="20%" valign="top"><span class="label">Keywords:</span><td colspan="2">&nbsp;None<br></td></tr>
 </table>
 </div>
