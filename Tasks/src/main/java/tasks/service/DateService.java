@@ -42,6 +42,16 @@ public class DateService {
             if (hour >= HOURS_IN_A_DAY || minute >= MINUTES_IN_HOUR || hour < 0 || minute < 0)
                 throw new IllegalArgumentException("Time unit exceeds bounds");
 
+            LocalDate localDate = startDateWithNoTime.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+            int year  = localDate.getYear();
+
+            if(year<1970 || year>2100){
+                throw new IllegalArgumentException("Year unit exceeds bounds");
+            }
+
+
+
+
             Calendar calendar = java.util.Calendar.getInstance();
 
             calendar.setTime(startDateWithNoTime);

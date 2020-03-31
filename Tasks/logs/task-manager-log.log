@@ -243,3 +243,6 @@
 2020-03-20 13:45:12 INFO  Controller:75 - Main controller initializing
 2020-03-20 13:45:15 INFO  NewEditController:87 - new/edit window initializing
 2020-03-20 13:45:16 INFO  NewEditController:193 - Task{title='', time=Fri Mar 20 08:00:00 EET 2020, start=Fri Mar 20 08:00:00 EET 2020, end=Fri Mar 20 08:00:00 EET 2020, interval=0, active=false}
+2020-03-31 19:14:19 INFO  Main:39 - saved data reading
+2020-03-31 19:14:19 INFO  Main:44 - application start
+2020-03-31 19:14:20 INFO  Controller:75 - Main controller initializing

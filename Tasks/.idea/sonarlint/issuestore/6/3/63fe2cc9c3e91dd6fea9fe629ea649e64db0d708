@@ -1,6 +1,0 @@
-
-6	java:S131U""Add a default case to this switch.(―ίπ
-T	java:S106Σ"9Replace this use of System.out or System.err by a logger.(®ύαλϋÿÿÿÿ
-Q	java:S125`"<This block of commented-out lines of code should be removed.(Τ€‚’
-`
-java:S1301U"KReplace this "switch" statement by "if" statements to increase readability.(―ίπ
