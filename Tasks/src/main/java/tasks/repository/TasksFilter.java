@@ -20,14 +20,17 @@ public class TasksFilter {
     }
 
     public Iterable<Task> incoming(Date start, Date end){
-//        log.println(start);
-//        log.println(end);
+
         ArrayList<Task> incomingTasks = new ArrayList<>();
         for (Task t : tasks) {
             Date nextTime = t.nextTimeAfter(start);
-            if (nextTime != null && (nextTime.before(end) || nextTime.equals(end))) {
-                incomingTasks.add(t);
-//                log.println(t.getTitle());
+            if(nextTime==null)System.out.println("null");
+            else System.out.println(nextTime.toString());
+            if (nextTime != null ){
+                if(nextTime.before(end))
+                    incomingTasks.add(t);
+                if(nextTime.equals(end))
+                    incomingTasks.add(t);
             }
         }
         return incomingTasks;

@@ -119,7 +119,7 @@ public class Task implements Serializable {
         if ((current.after(start) || current.equals(start)) && (current.before(end) || current.equals(end))){
             for (long i = start.getTime(); i <= end.getTime(); i += interval*1000){
                 if (current.equals(timeAfter))
-                    return new Date(timeAfter.getTime()+interval*1000);
+                    return new Date(timeAfter.getTime());
 
                 if (current.after(timeBefore) && current.before(timeAfter))
                     return timeBefore;
