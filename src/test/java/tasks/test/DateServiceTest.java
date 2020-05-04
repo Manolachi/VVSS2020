@@ -34,12 +34,12 @@ class DateServiceTest {
 //    }
 
 
-//    @org.junit.jupiter.api.Test
+    @Test
     @DisplayName("ECP_Minutes_Valid")
     @Tag("ECP")
     @Order(2)
     @Timeout(1000)
-    @RepeatedTest(3)
+    //@RepeatedTest(3)
     void getDateMergedWithTime_valid_minute_ECP() {
 
 //        120 year, because date get year-1900 as parameter
