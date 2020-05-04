@@ -15,7 +15,7 @@ class DateServiceTest {
     public TaskList taskList;
     public TasksService service;
     public DateService dateService;
-    @org.junit.jupiter.api.BeforeEach
+    @BeforeEach
     @Order(1)
     void setUp() {
         taskList=new LinkedTaskList();
@@ -23,7 +23,7 @@ class DateServiceTest {
         dateService = new DateService(service);
     }
 
-    @org.junit.jupiter.api.AfterEach
+    @AfterEach
     void tearDown() {
     }
 //
@@ -48,7 +48,7 @@ class DateServiceTest {
 
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     @DisplayName("ECP_Minutes_Non_Valid")
     @Tag("ECP")
     @Order(3)
@@ -65,7 +65,7 @@ class DateServiceTest {
 
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     @DisplayName("ECP_Hours_Valid")
     @Tag("ECP")
     @Order(4)
@@ -78,7 +78,7 @@ class DateServiceTest {
 
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     @DisplayName("ECP_Hours_Non_Valid")
     @Tag("ECP")
     @Order(5)
@@ -95,7 +95,7 @@ class DateServiceTest {
 
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     @DisplayName("BVA_Hours_Valid")
     @Tag("BVA")
     @Order(6)
@@ -108,7 +108,7 @@ class DateServiceTest {
 
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     @DisplayName("BVA_Hours_Non_Valid")
     @Tag("BVA")
     @Order(7)
@@ -124,7 +124,7 @@ class DateServiceTest {
         }
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     @DisplayName("BVA_Date_Non_Valid")
     @Tag("BVA")
     @Order(8)
@@ -136,7 +136,7 @@ class DateServiceTest {
 
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     @DisplayName("BVA_Date_Valid")
     @Tag("BVA")
     @Order(9)
