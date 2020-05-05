@@ -12,12 +12,12 @@ import java.util.Date;
     -implements constructors, getters setters, date&time formatters, and couple of overwritten methods
  */
 public class Task implements Serializable {
-    private String title;
-    private Date time;
-    private Date start;
-    private Date end;
-    private int interval;
-    private boolean active;
+    protected String title;
+    protected Date time;
+    protected Date start;
+    protected Date end;
+    protected int interval;
+    protected boolean active;
 
     private static final Logger log = Logger.getLogger(Task.class.getName());
     private SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm");
@@ -25,6 +25,8 @@ public class Task implements Serializable {
     private SimpleDateFormat getDateFormat(){
         return simpleDateFormat;
     }
+
+    public Task(){ }
 
     public Task(String title, Date time){
         if (time.getTime() < 0) {

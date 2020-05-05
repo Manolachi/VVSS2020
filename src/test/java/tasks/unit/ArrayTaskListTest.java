@@ -6,11 +6,9 @@ import tasks.domain.Task;
 import tasks.repository.ArrayTaskList;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.mock;
 
 class ArrayTaskListTest {
-
     private ArrayTaskList arrayTaskList;
 
     @BeforeEach
@@ -18,13 +16,12 @@ class ArrayTaskListTest {
         arrayTaskList = new ArrayTaskList();
     }
 
-
     @Test
     void arrayTaskList_add_valid_task() {
         Task taskMock = mock(Task.class);
         arrayTaskList.add(taskMock);
 
-        assertEquals(arrayTaskList.size(), 1);
+        assertEquals(1, arrayTaskList.size());
     }
 
     @Test
@@ -38,12 +35,12 @@ class ArrayTaskListTest {
         arrayTaskList.add(taskMock_1);
         arrayTaskList.add(taskMock_2);
 
-        assertEquals(arrayTaskList.getAll().size(), 2);
+        assertEquals(2, arrayTaskList.getAll().size());
 
         arrayTaskList.add(taskMock_3);
         arrayTaskList.add(taskMock_4);
         arrayTaskList.add(taskMock_5);
 
-        assertEquals(arrayTaskList.getAll().size(), 5);
+        assertEquals(5, arrayTaskList.getAll().size());
     }
 }

@@ -3,6 +3,7 @@ package tasks.service;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import tasks.domain.Task;
+import tasks.repository.ArrayTaskList;
 import tasks.repository.TaskList;
 import tasks.repository.TasksFilter;
 import java.util.Date;
@@ -13,14 +14,14 @@ import java.util.Date;
  */
 public class TasksService {
 
-    private final ObservableList<Task> tasks;
+    private final TaskList tasks;
 
     public TasksService(TaskList tasks){
-        this.tasks = FXCollections.observableArrayList(tasks.getAll());
+        this.tasks = tasks;
     }
 
     public ObservableList<Task> getObservableList(){
-        return tasks;
+        return FXCollections.observableArrayList(tasks.getAll());
     }
 
     public String getIntervalInHours(Task task){
